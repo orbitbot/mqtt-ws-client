@@ -1,0 +1,110 @@
+.inline {
+  display: inline-block;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.menu {
+  margin: 1em;
+  white-space: nowrap;
+  width: 250px;
+}
+
+/*.section {
+  margin-top: 3em;
+}*/
+
+.flex-table {
+  margin-bottom: 1em;
+}
+
+.flex-table-item .btn-group .btn {
+  float: none;
+}
+
+.flex-table-item .btn-group .btn:not(:first-child) {
+  margin-left: -4px;
+}
+
+.flex-table-item:not(:last-child) {
+  padding-right: 1em;
+}
+
+.properties {
+  position: relative;
+  padding: 15px;
+  font-size: 13px;
+  line-height: 1.4;
+  border: 1px solid #e5e5e5;
+  border-radius: .25rem .25rem 0 0;
+}
+
+.properties+.content {
+  margin-top: -1px;
+  border: 1px solid #e5e5e5;
+  border-radius: 0 0 .25rem .25rem;
+}
+
+.message .content {
+  margin-bottom: 16px;
+}
+
+.message .content pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.message .content pre, .message pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+}
+
+.message pre {
+  word-wrap: normal;
+}
+
+.connect-form .form-actions .btn {
+  margin-top: 1em;
+}
+
+.connect-form label {
+  padding-top: 1em;
+}
+
+.connect-form .input-group label {
+  margin-right: 1em;
+}
+
+.connect-form .input-group label:not(:first-child) {
+  margin-left: 1em;
+}
+
+.connect-form .input-group {
+  margin-bottom: 1em;
+}
+
+.connect-form .input {
+  width: 4em;
+}
+
+.connect-form .broker {
+  padding-right: 4em;
+}
+
+.connect-form dt+dd {
+  margin-bottom: 1em;
+}
+
+.connect-form .flex-table {
+  margin-bottom: auto;
+}
