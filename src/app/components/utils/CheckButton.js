@@ -1,10 +1,8 @@
 var CheckButton = { // eslint-disable-line no-unused-vars
   controller : function(args) {
-    var value = m.prop(false);
-
     this.class   = args.class;
-    this.enabled = value;
-    this.toggle  = function() { value(!value()); };
+    this.enabled = args.value;
+    this.toggle  = function() { args.value(!args.value()); };
   },
   view : function(ctrl) {
     return (<button class={ ctrl.class } type="button" onclick={ ctrl.toggle.bind(this) }>

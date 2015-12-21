@@ -28,9 +28,9 @@
   float: none;
 }
 
-.flex-table-item .btn-group .btn:not(:first-child) {
+/*.flex-table-item .btn-group .btn:not(:first-child) {
   margin-left: -4px;
-}
+}*/
 
 .flex-table-item:not(:last-child) {
   padding-right: 1em;
