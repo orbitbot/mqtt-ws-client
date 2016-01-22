@@ -48,5 +48,10 @@
     "mocha": "^2.3.4",
     "msx": "^0.4.1",
     "sinon": "^1.17.2"
+  },
+  "dependencies": {
+    "mithril": "^0.2.2-rc.1",
+    "octicons": "^3.3.0",
+    "primer-css": "^2.5.0"
   }
 }
